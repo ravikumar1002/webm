@@ -35,11 +35,11 @@ export const BannerCard = () => {
           position: "absolute",
           top: "50%",
           left: "90%",
-          transform: "translatey(-50%)",
+          transform: "translateY(-50%)",
         }}
       >
         <IconButton
-          aria-label="delete"
+          aria-label="ArrowForward"
           sx={{
             borderRadius: "30%",
             backgroundColor: "gray",
