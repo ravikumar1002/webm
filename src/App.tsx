@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import { ArtistsCard } from "./components/card";
+import { ArtistsCard , BannerCard} from "./components/card";
+
 
 function App() {
   return (

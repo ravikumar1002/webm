@@ -1,5 +1,13 @@
 import AddIcon from "@mui/icons-material/Add";
-import { Card, CardActions, CardMedia, IconButton } from "@mui/material";
+import {
+  Box,
+  Card,
+  CardActions,
+  CardMedia,
+  IconButton,
+  Rating,
+  Typography,
+} from "@mui/material";
 
 export const ArtistsCard = () => {
   return (
@@ -31,6 +39,20 @@ export const ArtistsCard = () => {
           <AddIcon />
         </IconButton>
       </CardActions>
+      <Box sx={{
+          position: "absolute",
+          bottom: 0,
+          width: "100%",
+          textAlign: "center",
+        }}>
+        <Typography variant="subtitle2" gutterBottom sx={{ fontWeight: "900" }}>
+          Artists Name
+        </Typography>
+        <Typography variant="body2" display="block" >
+          +12 movies
+        </Typography>
+        <Rating name="half-rating-read" size="small" defaultValue={2.5} precision={0.5} readOnly />
+      </Box>
     </Card>
   );
 };
