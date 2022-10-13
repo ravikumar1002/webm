@@ -6,7 +6,7 @@ import { ArtistsCard , BannerCard} from "./components/card";
 function App() {
   return (
     <div className="App">
-      <ArtistsCard />
+      <BannerCard />
     </div>
   );
 }
