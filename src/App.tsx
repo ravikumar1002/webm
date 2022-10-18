@@ -1,11 +1,10 @@
 import "./App.css";
-import { ArtistsCard , BannerCard} from "./components/card";
-
+import { ArtistsCard, BannerCard, SuggestionCard } from "./components/card";
 
 function App() {
   return (
     <div className="App">
-      <BannerCard />
+      <SuggestionCard />
     </div>
   );
 }
